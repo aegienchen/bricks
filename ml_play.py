@@ -77,6 +77,3 @@ def ml_loop():
         else:
             comm.send_instruction(scene_info.frame, PlatformAction.NONE)
 
-import pickle
-f=open('2020-02-08_15-04-07.pickle','rb')
-data=pickle.load()
